@@ -8,7 +8,7 @@ Application written in kivymd to convert the number of days to different date ty
 
 <h2>Project Screenshots:</h2>
 
-<img src="https://github.com/notwhitenet/kivymd-DayToApp/blob/main/ProjectScreen.png" alt="project-screenshot" width="400" height="400/">
+<img src="https://github.com/notwhitenet/kivymd-DayToApp/blob/main/ProjectScreen.png" alt="project-screenshot" width="487" height="695/">
 
   
 
