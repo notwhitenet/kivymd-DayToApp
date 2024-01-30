@@ -1,0 +1,103 @@
+<MyOwnLabel@MDLabel>
+    font_size: '25sp'
+    haling: 'left'
+    valing: 'middle'
+    text_size: self.size
+
+<Container>
+    rows: 3
+    text_input: text_input
+    label_hours: label_hours
+    label_minutes: label_minutes
+    label_seconds: label_seconds
+    label_miliseconds: label_miliseconds
+    label_weeks: label_weeks
+
+
+
+
+    AnchorLayout:
+        anchor_y: 'top'
+        size_hint: 1, 0.15
+        padding: 30
+
+        MDTextField:
+            font_name: 'assets/white.ttf'
+            text: ''
+            id: text_input
+            font_size: '45sp'
+            input_filter: 'int'
+            input_type: 'number'
+            padding: [10, 25, 0, 0]
+            multiline: False
+            hint_text: 'Введите кол-во дней'
+
+    GridLayout:
+        cols: 2
+        padding: [40, 0, 0, 40]
+
+        BoxLayout:
+            orientation: 'vertical'
+
+            MyOwnLabel:
+                font_name: 'assets/white.ttf'
+                text: 'Часы'
+
+            MyOwnLabel:
+                font_name: 'assets/white.ttf'
+                text: 'Минуты'
+
+            MyOwnLabel:
+                font_name: 'assets/white.ttf'
+                text: 'Секунды'
+
+            MyOwnLabel:
+                font_name: 'assets/white.ttf'
+                text: 'Милесекунды'
+                font_size: '22sp'
+
+            MyOwnLabel:
+                font_name: 'assets/white.ttf'
+                text: 'Недели'
+
+        BoxLayout:
+            orientation: 'vertical'
+            size_hint: 0.5, 1
+
+            MyOwnLabel:
+                text: '0'
+                font_name: 'assets/whiteinfo.otf'
+                id: label_hours
+
+            MyOwnLabel:
+                text: '0'
+                font_name: 'assets/whiteinfo.otf'
+                id: label_minutes
+
+            MyOwnLabel:
+                text: '0'
+                font_name: 'assets/whiteinfo.otf'
+                id: label_seconds
+
+            MyOwnLabel:
+                text: '0'
+                font_name: 'assets/whiteinfo.otf'
+                id: label_miliseconds
+
+            MyOwnLabel:
+                text: '0'
+                font_name: 'assets/whiteinfo.otf'
+                id: label_weeks
+
+    BoxLayout:
+        size_hint: 0.9, 0.15
+        padding: [20, 0, 20, 10]
+
+        MDRaisedButton:
+            font_name: 'assets/white.ttf'
+            size_hint: 1, 0.9
+            font_size: '35sp'
+            text: 'перевести'
+            background_color: 0.2, 0.7, 0.4, 1
+            on_release:
+                root.convert()
