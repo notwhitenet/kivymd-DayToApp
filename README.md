@@ -1,4 +1,4 @@
-# kivymd-DayToApp
+# 👻 kivymd-DayToApp
 Application written in kivymd to convert the number of days to different date types.
 </p>The code is completely freely available, created to see how the basics of .kv files work.</p>
 
@@ -6,7 +6,7 @@ Application written in kivymd to convert the number of days to different date ty
 <p align="left"><a href="https://www.python.org" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/></a> &nbsp; <a href="https://kivymd.readthedocs.io/en/latest/" target="_blank" rel="noreferrer"><img src="https://habrastorage.org/webt/zy/_8/5h/zy_85h73xt-wyxxnggpfd9zarii.png" alt="python" width="40" height="40"/></a></p>
 
 
-<h2>Project Screenshots:</h2>
+<h2>📸 Project Screenshots:</h2>
 
 <img src="https://github.com/notwhitenet/kivymd-DayToApp/blob/main/ProjectScreen.png" alt="project-screenshot" width="487" height="695/">
 
